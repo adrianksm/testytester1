@@ -139,3 +139,4 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 mySprite.setPosition(120, 94)
+controller.moveSprite(mySprite)
